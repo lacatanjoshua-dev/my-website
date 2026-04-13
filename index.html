@@ -1,20 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File and Web Server Activity</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+a.button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: #00c6ff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+a.button:hover {
+    background: #00ffcc;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+</style>
 </head>
+
 <body>
 
-<h1>File and Web Server Activity</h1>
+<div class="container">
 
-<p>Name: Joshua Lacatan</p>
-<p>Section: BSIT III-F1</p>
+    <h1>🌐 File & Web Server Demo</h1>
 
-<h2>Image from File Server</h2>
-<img src="https://drive.google.com/file/d/1PgYOhs3aqeM21Nv41fWROsBQEXilqXL4/view?usp=sharing" width="300">
+    <div class="info">
+        <p><strong>Name:</strong> YOUR NAME</p>
+        <p><strong>Section:</strong> YOUR SECTION</p>
+    </div>
 
-<h2>File Link</h2>
-<a href="https://drive.google.com/file/d/1bjoN4bEDcvbtDul5S8KNZ4xrq6AQjBjh/view?usp=sharing">Open File</a>
+    <div class="section">
+        <h2>📷 Image from File Server</h2>
+        <p>This image is hosted on a file server and displayed on this website.</p>
+        <img src="https://drive.google.com/file/d/1kpSblLAuouRW7iTyPBCvTp0AknMuxHXG/view?usp=sharing">
+    </div>
+
+    <div class="section">
+        <h2>📁 File Access</h2>
+        <p>Click the button below to open the file stored in the file server.</p>
+        <a href="https://drive.google.com/file/d/10D-7DfLt3NL5IwQzfsSFEEWMogHMieEh/view?usp=sharing" target="_blank" class="button">Open File</a>
+    </div>
+
+    <div class="section">
+        <h2>📘 Explanation</h2>
+        <p>
+            This website is hosted using GitHub Pages (Web Server).  
+            The files such as images and documents are stored in Google Drive (File Server).  
+            The web server retrieves and displays the files from the file server.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 File & Web Server Activity</p>
+    </div>
+
+</div>
 
 </body>
 </html>
